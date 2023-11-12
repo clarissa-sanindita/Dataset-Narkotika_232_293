@@ -27,9 +27,9 @@ Langkah-langkah:
 ## Struktur Repositori
 Repositori ini berisi :
 - Dataset
-Dataset sudah dikompress dalam format file .zip
+  Data sudah dikompress dalam format file .zip
 - Overview
-Overview berisi ringkasan putusan dari hasil scraping, Terdapat 4 kolom yaitu Nomor Pidana, Lembaga Peradilan, Bukti, dan Amar Putusan dengan format file xlsx
+Berisi ringkasan putusan dari hasil scraping, Terdapat 4 kolom yaitu Nomor Pidana, Lembaga Peradilan, Bukti, dan Amar Putusan dengan format file xlsx
 
 
 - Readme.md
