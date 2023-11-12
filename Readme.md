@@ -1,16 +1,16 @@
-# Dataset Pidana Khusus PN SERANG 2022-2023
+# Dataset Pidana Khusus PN SERANG 2023
 
 [![N|Solid](https://i.ibb.co/yV97wyP/logo.png)](https://nodesource.com/products/nsolid)
 
-Hasil scrape PDF hasil putusan pidana khusus narkotika dan psikotropika PN Serang pada tahun 2022-2023. Jumlah file PDF yang berhasil terkumpul sebanyak 50 file.
+Hasil scrape PDF hasil putusan pidana khusus narkotika dan psikotropika PN Serang pada tahun 2023. Jumlah file PDF yang berhasil terkumpul sebanyak 81 file dan dikarenakan jumlah data yang diminta hanya 50, maka kami memfilter dengan mengambil 50 data teratas pada dataset.
 
 ## Deskripsi Proyek
-Proyek ini bertujuan untuk memenuhi tugas Temu Kembali Informasi mengenai pengumpulan data dari putusan pidana khusus narkotika dan psikotropika yang dikeluarkan oleh Pengadilan Negeri Serang selama tahun 2022-2023. Tujuan analisis ini adalah untuk memberikan gambaran dan wawasan mengenai tren, pola, dan keputusan hukum dalam kasus narkotika dan psikotropika.
+Proyek ini bertujuan untuk memenuhi tugas Temu Kembali Informasi mengenai pengumpulan data dari putusan pidana khusus narkotika dan psikotropika yang dikeluarkan oleh Pengadilan Negeri Serang selama tahun 2023. Tujuan analisis ini adalah untuk memberikan gambaran dan wawasan mengenai tren, pola, dan keputusan hukum dalam kasus narkotika dan psikotropika.
 
 ## Metodologi Pengumpulan Data
 - Jumlah File: 50 file PDF.
 - Sumber Data: Pengadilan Negeri Serang.
-- Periode: 2022-2023.
+- Tahun: 2023.
 - Metode: Scraping data dari website resmi menggunakan teknik otomatisasi.
 - Kriteria File: Hanya file yang berkaitan dengan putusan pidana narkotika dan psikotropika.
 
@@ -18,7 +18,7 @@ Proyek ini bertujuan untuk memenuhi tugas Temu Kembali Informasi mengenai pengum
 Alat Scraping: Python dengan libraries BeautifulSoup, requests, lxml, urllib, re, io, pandas, dan concurrent.futures
 >
 Langkah-langkah:
-- Menggunakan URL dari website Pengadilan Negeri yang menyediakan data putusan, khususnya untuk kasus narkotika dan psikotropika di PN Serang pada tahun 2022-2023
+- Menggunakan URL dari website Pengadilan Negeri yang menyediakan data putusan, khususnya untuk kasus narkotika dan psikotropika di PN Serang pada tahun 2023
 - Menerapkan requests dan BeautifulSoup untuk menguraikan konten halaman web dan menemukan link yang mengarah ke file PDF kemudian menggunakan urllib untuk mengunduh file PDF dari link yang ditemukan
 - Menyimpan file PDF yang telah diunduh ke direktori yang telah ditentukan menggunakan fungsi 'create_path'.
 - Menggunakan library io dan high_level untuk ekstraksi teks dari file PDF dan menerapkan fungsi clean_text untuk menghilangkan teks yang tidak relevan atau format yang tidak diperlukan.
